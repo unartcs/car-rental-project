@@ -14,7 +14,7 @@ body {
   justify-content: space-between;
   margin: 0rem 0rem;
   align-items: center;
-  background: linear-gradient(45deg, rgb(232, 232, 232), rgb(251, 251, 251));
+    background: linear-gradient(45deg, rgb(232, 232, 232), rgb(251, 251, 251));
   /* background: linear-gradient(45deg, rgb(242, 147, 136), rgba(242, 147, 136, 0.8)); */
   /* padding: 0.1rem 10rem; */
   /* width: 100%; */
@@ -32,6 +32,7 @@ body {
   padding: 0rem 5rem;
 }
 .menu-button {
+  color: white;
   cursor: pointer;
   background: #f00000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -67,16 +68,12 @@ body {
 }
 
 .about-wrapper {
-  background: #f00000; /* fallback for old browsers */
+  background: #9472729a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #dc281e,
-    #f00000
+    150deg, rgb(190, 190, 190), rgb(208, 208, 208)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #dc281e,
-    #f00000
+    150deg, rgb(190, 190, 190), rgb(208, 208, 208)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   padding: 15rem 10rem;
@@ -97,7 +94,7 @@ body {
 }
 
 .prices-wrapper {
-  background: linear-gradient(150deg, rgb(159, 159, 159), rgb(208, 208, 208));
+  background: linear-gradient(150deg, rgb(190, 190, 190), rgb(208, 208, 208));
   padding: 5rem 10rem;
   min-height: 100%;
   display: flex;
@@ -107,11 +104,8 @@ body {
 }
 
 .contact-wrapper {
-  background: linear-gradient(
-    125deg,
-    rgb(251, 119, 92),
-    rgba(217, 150, 111, 0.577)
-  );
+  background: linear-gradient(180deg, rgb(190, 190, 190), rgb(211, 211, 211));
+
   padding: 5rem 10rem;
   min-height: 80vh;
   display: flex;
@@ -182,7 +176,7 @@ fieldset {
     rgb(237, 237, 237),
     rgba(237, 237, 237, 0.25)
   ); */
-  background: linear-gradient(45deg, rgb(197, 197, 197), rgb(211, 211, 211));
+  background: linear-gradient(180deg, rgb(197, 197, 197), rgb(211, 211, 211));
 }
 
 .hero-wrapper {

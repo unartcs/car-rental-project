@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <div className='contact-wrapper' id='contact-id'>
-        <h1>Contact Us</h1>
+        <h1>Contact <span>Us</span></h1>
         <div className='contact-content'>
           <form className='contact-form'>
           <fieldset>
