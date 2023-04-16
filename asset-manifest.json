@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/car-rental-project/static/css/main.59d05fab.css",
-    "main.js": "/car-rental-project/static/js/main.08a3d947.js",
+    "main.css": "/car-rental-project/static/css/main.1cd0febc.css",
+    "main.js": "/car-rental-project/static/js/main.3fd1404d.js",
     "static/media/2018-mercedes-benz-gls.png": "/car-rental-project/static/media/2018-mercedes-benz-gls.39114fe94ea8bfeee8a3.png",
     "static/media/volkswagen-golf.png": "/car-rental-project/static/media/volkswagen-golf.cfc6bbc13ea763ea19c5.png",
     "static/media/carheroimage.png": "/car-rental-project/static/media/carheroimage.18596142c955aebf29b5.png",
     "static/media/2015-bmw-m4.png": "/car-rental-project/static/media/2015-bmw-m4.980a923f7d5aa19d58d1.png",
     "static/media/audi-a1.png": "/car-rental-project/static/media/audi-a1.ba5b074b14990b448d7a.png",
     "index.html": "/car-rental-project/index.html",
-    "main.59d05fab.css.map": "/car-rental-project/static/css/main.59d05fab.css.map",
-    "main.08a3d947.js.map": "/car-rental-project/static/js/main.08a3d947.js.map"
+    "main.1cd0febc.css.map": "/car-rental-project/static/css/main.1cd0febc.css.map",
+    "main.3fd1404d.js.map": "/car-rental-project/static/js/main.3fd1404d.js.map"
   },
   "entrypoints": [
-    "static/css/main.59d05fab.css",
-    "static/js/main.08a3d947.js"
+    "static/css/main.1cd0febc.css",
+    "static/js/main.3fd1404d.js"
   ]
 }
