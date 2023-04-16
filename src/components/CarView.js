@@ -36,6 +36,7 @@ function CarView(props) {
             </tr>
           </tbody>
         </table>
+
       </div>
   )
 }

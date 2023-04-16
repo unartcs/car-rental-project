@@ -49,5 +49,6 @@ const carsData = [
     imageURL: '2018-mercedes-benz-gls.png',
     rentPrice: '35'
   },
+  
 ];
 export default carsData

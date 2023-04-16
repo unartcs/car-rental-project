@@ -1,26 +1,46 @@
+html {
+  width: 100%;
+}
 body {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  /* padding: 0rem 10%; */
 }
 
 .body-wrapper {
-  /* margin: 0rem 5rem; */
+  margin: 0rem 10%;
   font-family: "Montserrat", sans-serif;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .menu-wrapper {
   font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: space-between;
-  margin: 0rem 0rem;
+  /* margin: 0rem 10%; */
   align-items: center;
-    background: linear-gradient(45deg, rgb(232, 232, 232), rgb(251, 251, 251));
+  text-align: center;
+  background: linear-gradient(308deg, rgb(232, 232, 232), transparent 97.25%), linear-gradient(26deg, transparent 27%, rgb(251, 251, 251));
   /* background: linear-gradient(45deg, rgb(242, 147, 136), rgba(242, 147, 136, 0.8)); */
   /* padding: 0.1rem 10rem; */
-  /* width: 100%; */
   font-weight: 400;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 2px 0px;
+  border: 0;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 80%;
+/* margin: 0rem 15rem; */
+/* right: 2%; */
 
+}
 .menu-wrapper-ul {
   list-style: none;
   display: flex;
@@ -57,12 +77,12 @@ body {
   background: #f0000098; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #dc271eab,
+    #dc271eab, transparent 97%
     #f00000ce
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #dc271eab,
+    #dc271eab, transparent 97%
     #f00000ce
   );
 }
@@ -72,12 +92,9 @@ body {
   background: -webkit-linear-gradient(
     150deg, rgb(190, 190, 190), rgb(208, 208, 208)
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    150deg, rgb(190, 190, 190), rgb(208, 208, 208)
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  padding: 15rem 10rem;
-  min-height: 50vh;
+  background: linear-gradient(308deg, rgb(190, 190, 190), transparent 97.25%), linear-gradient(26deg, transparent 27%, rgb(208, 208, 208));
+  padding: 10rem 10rem;
+  min-height: 70vh;
 }
 
 .about-wrapper > h1 {
@@ -94,17 +111,20 @@ body {
 }
 
 .prices-wrapper {
-  background: linear-gradient(150deg, rgb(190, 190, 190), rgb(208, 208, 208));
+  /* background: linear-gradient(150deg, rgb(190, 190, 190), rgb(208, 208, 208)); */
+  background: linear-gradient(154deg, rgb(190, 190, 190), transparent 97.25%), linear-gradient(26deg, transparent 27%, rgb(208, 208, 208));
   padding: 5rem 10rem;
   min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* height: 4vh; */
+ 
 }
 
 .contact-wrapper {
-  background: linear-gradient(180deg, rgb(190, 190, 190), rgb(211, 211, 211));
+  background: linear-gradient(308deg, rgb(190, 190, 190), transparent 97.25%), linear-gradient(26deg, transparent 27%, rgb(208, 208, 208));
 
   padding: 5rem 10rem;
   min-height: 80vh;
@@ -176,7 +196,7 @@ fieldset {
     rgb(237, 237, 237),
     rgba(237, 237, 237, 0.25)
   ); */
-  background: linear-gradient(180deg, rgb(197, 197, 197), rgb(211, 211, 211));
+  background: linear-gradient(308deg, rgb(197, 197, 197), transparent 97.25%), linear-gradient(26deg, transparent 50%, rgb(211, 211, 211));
 }
 
 .hero-wrapper {
@@ -227,15 +247,18 @@ span {
 .car-display-table {
   background-color: rgb(245, 242, 242);
   border: 1px solid black;
+  
 }
 
 .car-display-table > tbody > tr > td:nth-child(1) {
   border-right: 1px solid black;
+  font-weight: 700;
 }
 
 .car-display-table > tbody > tr > td {
   padding: 0.5rem;
   min-width: 100px;
+  max-width: 200px;
 }
 
 .car-display-table > tbody > tr:not(:first-child) > td {
@@ -276,6 +299,7 @@ span {
 
 .car-img-container {
   display: flex;
+  flex-direction: column;
   flex-grow: 0;
   max-width: 600px;
   width: 500px;
@@ -288,24 +312,26 @@ span {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  
 }
-
 .button-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .button-wrapper > h1 {
-  font-size: 48px;
+  font-size: 32px;
   color: rgb(167, 29, 14);
+  padding: 0;
+  margin: 0;
 }
 .button-wrapper > h2 {
   cursor: pointer;
   color: white;
   background: linear-gradient(180deg, rgb(167, 29, 14), rgb(151, 32, 19));
-  padding: 1rem;
+  
+  padding: 0.7rem;
   border-radius: 20px;
   text-align: center;
 }
@@ -314,8 +340,4 @@ span {
   background: linear-gradient(45deg, rgb(230, 48, 28), rgb(220, 75, 59));
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+

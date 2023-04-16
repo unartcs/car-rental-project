@@ -34,7 +34,7 @@ function Cars() {
         <CarView activeCar={activeCar} />
       </div>
       <div class="button-wrapper">
-        <h1>Only {activeCar.rentPrice}$ a day!</h1>
+        <h1>only {activeCar.rentPrice}$ a day</h1>
         <h2>Order now</h2>
       </div>
     </div>
